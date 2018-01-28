@@ -1,0 +1,29 @@
+/**
+ * This module contains font declarations. When you use it, please use the
+ * following numerical font weights, instaed of the weight names:
+ * 100   Thin (Hairline)
+ * 200   Extra Light (Ultra Light)
+ * 300   Light
+ * 400   Normal
+ * 500   Medium
+ * 600   Semi Bold (Demi Bold)
+ * 700   Bold
+ * 800   Extra Bold (Ultra Bold)
+ * 900   Black (Heavy)
+ */
+
+/* Roboto is the main font i;n the TC UI Kit. */
+$path: 'fonts/roboto/';
+
+@include font-family('Roboto', 900, normal, $path, 'roboto-black');
+@include font-family('Roboto', 900, italic, $path, 'roboto-blackitalic');
+@include font-family('Roboto', 700, normal, $path, 'roboto-bold');
+@include font-family('Roboto', 700, italic, $path, 'roboto-bolditalic');
+@include font-family('Roboto', 500, normal, $path, 'roboto-medium');
+@include font-family('Roboto', 500, italic, $path, 'roboto-mediumitalic');
+@include font-family('Roboto', 400, normal, $path, 'roboto-regular');
+@include font-family('Roboto', 400, italic, $path, 'roboto-italic');
+@include font-family('Roboto', 300, normal, $path, 'roboto-light');
+@include font-family('Roboto', 300, italic, $path, 'roboto-lightitalic');
+@include font-family('Roboto', 100, normal, $path, 'roboto-thin');
+@include font-family('Roboto', 100, italic, $path, 'roboto-thinitalic');
