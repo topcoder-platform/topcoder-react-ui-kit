@@ -22,13 +22,12 @@
   },
   "scripts": {
     "build": "npm run clean && ./node_modules/.bin/webpack --env=production --progress --profile --colors --display-optimization-bailout",
-    "build:dev": "npm run clean && webpack --env=development --progress --profile --colors --display-optimization-bailout --bail",
+    "build:dev": "npm run clean && webpack --env=development --progress --profile --colors --display-optimization-bailout --bail --watch",
     "clean": "rimraf dist",
     "prepublishOnly": "npm run build"
   },
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
-    "ignore-loader": "^0.1.2",
     "topcoder-react-utils": "0.0.34"
   },
   "devDependencies": {
@@ -57,7 +56,6 @@
     "eslint-plugin-react": "^7.5.1",
     "extract-css-chunks-webpack-plugin": "^2.0.18",
     "file-loader": "^1.1.6",
-    "ncp": "^2.0.0",
     "node-forge": "^0.7.1",
     "node-sass": "^4.7.2",
     "nodelist-foreach-polyfill": "^1.2.0",
