@@ -26,10 +26,10 @@
     "clean": "rimraf dist",
     "prepublishOnly": "npm run build"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "dependencies": {
     "ignore-loader": "^0.1.2",
-    "topcoder-react-utils": "0.0.33"
+    "topcoder-react-utils": "0.0.34"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
