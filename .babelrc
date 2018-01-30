@@ -1,3 +1,3 @@
 {
-  "presets": ["topcoder-react-utils/config/babel/lib-compile"]
+  "presets": ["topcoder-react-utils/config/babel/node-ssr"]
 }

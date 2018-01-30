@@ -24,8 +24,19 @@ To use any of the style mixins in your SCSS code you should import them as
 ```scss
 @import "~topcoder-react-ui-kit/src/styles/mixins";
 ```
+- [**`Typography`**](docs/typography-mixins.md) &mdash; Standard mixins for
+  body text, fonts, headings, labels, and titles;
+
 - [**`Variables`**](docs/variables.md) &mdash; Standard colors, design break
   points and other global style constants;
+
+### Themed Components
+Note that most of these components are inherited from their
+[`topcoder-react-utils`](https://www.npmjs.com/package/topcoder-react-utils)
+counterparts, and `topcoder-react-ui-kit` just takes care about their proper
+theming according to the TC UI Kit design specs.
+
+- [**`Buttons`**](docs/buttons.md) &mdash; Themed buttons.
 
 ### Development
 *To be written*

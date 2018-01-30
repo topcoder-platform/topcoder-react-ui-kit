@@ -14,7 +14,7 @@
     "UI Kit"
   ],
   "license": "UNLICENSED",
-  "main": "dist",
+  "main": "dist/index.js",
   "name": "topcoder-react-ui-kit",
   "repository": {
     "type": "git",
@@ -26,9 +26,10 @@
     "clean": "rimraf dist",
     "prepublishOnly": "npm run build"
   },
-  "version": "0.0.3",
+  "version": "0.0.4",
   "dependencies": {
-    "topcoder-react-utils": "0.0.34"
+    "react-css-super-themr": "^2.2.0",
+    "topcoder-react-utils": "0.0.37"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
@@ -41,6 +42,7 @@
     "babel-plugin-module-resolver": "^3.0.0",
     "babel-plugin-react-css-modules": "^3.3.3",
     "babel-plugin-transform-assets": "^0.2.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -61,6 +63,7 @@
     "nodelist-foreach-polyfill": "^1.2.0",
     "optimize-css-assets-webpack-plugin": "^3.2.0",
     "postcss-loader": "^2.0.10",
+    "postcss-scss": "^1.0.3",
     "postcss-url": "^7.3.0",
     "react-hot-loader": "^3.1.3",
     "resolve-url-loader": "^2.2.1",
