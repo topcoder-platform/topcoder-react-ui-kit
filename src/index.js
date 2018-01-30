@@ -1,4 +1,4 @@
-import 'styles/global';
+import 'styles/global.scss';
 
 import * as buttons from 'components/buttons';
 

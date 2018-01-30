@@ -24,7 +24,10 @@
     "build": "npm run clean && ./node_modules/.bin/webpack --env=production --progress --profile --colors --display-optimization-bailout",
     "build:dev": "npm run clean && webpack --env=development --progress --profile --colors --display-optimization-bailout --bail --watch",
     "clean": "rimraf dist",
-    "prepublishOnly": "npm run build"
+    "lint": "npm run lint:js",
+    "lint:js": "./node_modules/.bin/eslint --ext .js,.jsx .",
+    "prepublishOnly": "npm run build",
+    "test": "npm run lint"
   },
   "version": "0.0.4",
   "dependencies": {
