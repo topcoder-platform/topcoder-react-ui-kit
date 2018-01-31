@@ -32,12 +32,7 @@ $corner-radius: 2px;
  * colors in your stylesheets.
  */
 
-/* Primary brand colors. */
-$tc-light-blue: #26ade9;
-$tc-green: #60c700;
-$tc-orange: #fb7d22;
-$tc-yellow: #fff100;
-
+/* Grayscale colors. */
 $tc-black: #262628;
 $tc-gray-90: #37373c;
 $tc-gray-80: #47474f;
@@ -48,56 +43,91 @@ $tc-gray-40: #a3a3ad;
 $tc-gray-30: #c3c3c8;
 $tc-gray-20: #dcdce0;
 $tc-gray-10: #ededf2;
-
 $tc-gray-neutral-dark: #ebebeb;
 $tc-gray-neutral-light: #fafafb;
-$tc-white: #fff;
+$tc-white: #ffffff;
 
 /* Accents & Shades. */
-$tc-dark-blue: #0a71e6;
-$tc-dark-blue-90: #1a85ff;
-$tc-dark-blue-70: #59a7ff;
-$tc-dark-blue-30: #cfe6ff;
+$tc-dark-blue-110: #006dea;
+$tc-dark-blue-100: #0681ff;
+$tc-dark-blue-70: #55a5ff;
+$tc-dark-blue-30: #cee6ff;
 $tc-dark-blue-10: #f4f9ff;
 
-$tc-red: #f22f24;
-$tc-red-70: #ff5b52;
-$tc-red-30: #ffd4d1;
-$tc-red-10: #fff4f4;
-
-$tc-gold: #fce217;
-$tc-gold-70: #faed8e;
-$tc-gold-30: #fff7cc;
-$tc-gold-10: #fffde6;
-
-/* $tc-green: #60c700; Already defined among the primary brand colors. */
-$tc-green-70: #96d957;
-$tc-green-30: #cfefb2;
-$tc-green-10: #effae5;
-
-/* $tc-light-blue: #26ade9; Already defined among the primary brand colors. */
+/* Light Blue - design color code. */
+$tc-light-blue-110: #169ed9;
+$tc-light-blue-100: #26ade9;
 $tc-light-blue-70: #67c5ef;
 $tc-light-blue-30: #bde6f8;
 $tc-light-blue-10: #e9f6fc;
 
-/* $tc-orange: #fb7d22; Already defined among the primary brand colors. */
+/* Warm Orange - data science color code. */
+$tc-orange-110: #f26500;
+$tc-orange-100: #fb7d22;
 $tc-orange-70: #fda464;
 $tc-orange-30: #fee3d0;
 $tc-orange-10: #fff0eb;
 
-$tc-purple: #9050a3;
+/* Red - used for warnings/ */
+$tc-red-110: #ea1900;
+$tc-red-100: #f22f24;
+$tc-red-70: #ff5b52;
+$tc-red-30: #ffd4d1;
+$tc-red-10: #fff4f4;
+
+/* Yellow. */
+$tc-yellow-110: #f2c900;
+$tc-yellow-100: #fde400;
+$tc-yellow-70: #fbee88;
+$tc-yellow-30: #fff8ca;
+$tc-yellow-10: #fffde5;
+
+/* Greens - development color code. */
+$tc-green-110: #55b000;
+$tc-green-100: #60c700;
+$tc-green-70: #96d957;
+$tc-green-30: #cfefb2;
+$tc-green-10: #effae5;
+
+/* Purples. */
+$tc-purple-110: #9050a3;
+$tc-purple-100: #9050a3;
 $tc-purple-70: #b47dd6;
 $tc-purple-30: #e2c7f2;
 $tc-purple-10: #f8f2fb;
 
-/* Badges. */
-/* $tc-gold: #fce217; Already defined above. */
-$tc-silver: #a9bcd4;
+/* TC Metal colors - Badges. */
+$tc-gold: #fce217;
+$tc-silver: #94bef5;
 $tc-bronze: #bd731e;
 
-/* Levels. */
-$tc-level-1: $tc-gray-40;
-$tc-level-2: #25c089;
-$tc-level-3: #666eff;
-$tc-level-4: #fcb816;
-$tc-level-5: #e6175c;
+/* Pastel colors, used for levels. */
+$tc-pastel-green: #25c089;
+$tc-pastel-blue: #666eff;
+$tc-pastel-yellow: #fcb816;
+$tc-pastel-crimson: #e6175c;
+
+/* Color aliases. */
+
+/* Brand colors. */
+$tc-dark-blue: $tc-dark-blue-100;
+$tc-light-blue: $tc-light-blue-100;
+$tc-green: $tc-green-100;
+$tc-purple: $tc-purple-100;
+$tc-yellow: $tc-yellow-100;
+$tc-orange: $tc-orange-100;
+$tc-red: $tc-red-100;
+
+/* Community achievement color codes. */
+$tc-level-1: $tc-gray-50;
+$tc-level-2: $tc-pastel-green;
+$tc-level-3: $tc-pastel-blue;
+$tc-level-4: $tc-pastel-yellow;
+$tc-level-5: $tc-pastel-crimson;
+
+/* TODO: The following constants are here just for back
+ * compatibility, they will be removed later, don't use them! */
+$tc-dark-blue-90: $tc-dark-blue-100;
+$tc-gold-70: $tc-yellow-70;
+$tc-gold-30: $tc-yellow-30;
+$tc-gold-10: $tc-yellow-10;
