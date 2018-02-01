@@ -31,6 +31,7 @@
   },
   "version": "0.0.5",
   "dependencies": {
+    "react": "^16.2.0",
     "react-css-super-themr": "^2.2.0",
     "topcoder-react-utils": "0.0.37"
   },
