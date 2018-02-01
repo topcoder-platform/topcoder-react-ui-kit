@@ -24,8 +24,9 @@
     "build": "npm run clean && ./node_modules/.bin/webpack --env=production --progress --profile --colors --display-optimization-bailout",
     "build:dev": "npm run clean && webpack --env=development --progress --profile --colors --display-optimization-bailout --bail --watch",
     "clean": "rimraf dist",
-    "lint": "npm run lint:js",
+    "lint": "npm run lint:js && npm run lint:scss",
     "lint:js": "./node_modules/.bin/eslint --ext .js,.jsx .",
+    "lint:scss": "./node_modules/.bin/stylelint **/*.scss --syntax scss",
     "prepublishOnly": "npm run build",
     "test": "npm run lint"
   },
@@ -74,6 +75,8 @@
     "rimraf": "^2.6.2",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.1",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^18.0.0",
     "webpack": "^3.10.0",
     "webpack-hot-middleware": "^2.21.0",
     "webpack-merge": "^4.1.1"

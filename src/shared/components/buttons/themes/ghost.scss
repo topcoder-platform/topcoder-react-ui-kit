@@ -14,10 +14,6 @@
   color: $tc-gray-80;
 }
 
-.link:visited {
-  color: #0b71e6;
-}
-
 .link,
 .regular {
   &:focus {
@@ -39,4 +35,7 @@
     color: $tc-dark-blue-90;
   }
 }
- 
+
+.link:visited {
+  color: #0b71e6;
+}
