@@ -34,7 +34,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-css-super-themr": "^2.2.0",
-    "topcoder-react-utils": "0.0.37"
+    "topcoder-react-utils": "0.0.39"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.5",
