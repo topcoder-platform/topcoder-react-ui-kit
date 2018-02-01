@@ -30,7 +30,7 @@
     "prepublishOnly": "npm run build",
     "test": "npm run lint"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "dependencies": {
     "react": "^16.2.0",
     "react-css-super-themr": "^2.2.0",
