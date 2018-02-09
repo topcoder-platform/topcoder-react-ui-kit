@@ -7,7 +7,7 @@
 .button {
   background: transparent;
   border-color: transparent;
-  color: #0b71e6;
+  color: $tc-dark-blue-110;
 }
 
 .disabled {
@@ -16,26 +16,26 @@
 
 .link,
 .regular {
+  &:visited {
+    color: $tc-dark-blue-110;
+  }
+
   &:focus {
-    box-shadow: 0 0 2px 1px #cfe6ff;
-    border-color: #59a7ff;
+    box-shadow: 0 0 2px 1px $tc-dark-blue-30;
+    border-color: $tc-dark-blue-70;
     outline: none;
   }
 
   &:hover {
     background-image: none;
     border-color: transparent;
-    color: #59a7ff;
+    color: $tc-dark-blue-70;
   }
 
   &:active {
     background-image: none;
     box-shadow: none;
     border-color: transparent;
-    color: $tc-dark-blue-90;
+    color: $tc-dark-blue;
   }
-}
-
-.link:visited {
-  color: #0b71e6;
 }
