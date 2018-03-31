@@ -31,12 +31,12 @@
     "prepublishOnly": "npm run build",
     "test": "npm run lint && npm run jest"
   },
-  "version": "0.2.2",
+  "version": "0.2.3",
   "dependencies": {
     "babel-jest": "^22.1.0",
     "react": "^16.2.0",
     "react-css-super-themr": "^2.2.0",
-    "topcoder-react-utils": "^0.2.3"
+    "topcoder-react-utils": "^0.2.4"
   },
   "devDependencies": {
     "autoprefixer": "^7.2.6",
