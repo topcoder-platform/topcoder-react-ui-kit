@@ -1,7 +1,7 @@
 import Avatar from 'components/Avatar';
 import React from 'react';
-import { snapshot } from 'topcoder-react-utils/jest-utils';
+import { JU } from 'topcoder-react-utils';
 
 test('Snapshots', () => {
-  snapshot(<Avatar />);
+  JU.snapshot(<Avatar />);
 });
