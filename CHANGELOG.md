@@ -1,5 +1,9 @@
 # Topcoder React UI Kit Changelog
 
+### v0.3.0
+Update of dependencies. Should not introduce breaking changes, but, just in
+case, tagged as minor version update.
+
 ### v0.2.0
 - **[Breaking change]:** The following color constants have been dropped:
   `$tc-dark-blue-90`, `$tc-gold-70`, `$tc-gold-30`, `$tc-gold-10`; use instead:
