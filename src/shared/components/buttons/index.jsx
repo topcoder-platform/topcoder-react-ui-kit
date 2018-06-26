@@ -16,5 +16,4 @@ export const DangerButton = themr('DangerButton', dangerTheme)(ProtoButton);
 export const GhostButton = themr('GhostButton', ghostTheme)(ProtoButton);
 export const PrimaryButton = themr('PrimaryButton', primaryTheme)(ProtoButton);
 
-export const SecondaryButton =
-  themr('SecondaryButton', secondaryTheme)(ProtoButton);
+export const SecondaryButton = themr('SecondaryButton', secondaryTheme)(ProtoButton);

@@ -11,20 +11,13 @@ import dataScienceTrackEventTag from './event/data-science.scss';
 import designTrackEventTag from './event/design.scss';
 import developmentTrackEventTag from './event/development.scss';
 
-export const Tag =
-  themr('Tag', defaultTag)(GenericButton);
+export const Tag = themr('Tag', defaultTag)(GenericButton);
 
-export const DataScienceTrackTag =
-  themr('DataScienceTrackTag', dataScienceTrackTag)(GenericButton);
-export const DataScienceTrackEventTag =
-  themr('DataScienceTrackEventTag', dataScienceTrackEventTag)(GenericButton);
+export const DataScienceTrackTag = themr('DataScienceTrackTag', dataScienceTrackTag)(GenericButton);
+export const DataScienceTrackEventTag = themr('DataScienceTrackEventTag', dataScienceTrackEventTag)(GenericButton);
 
-export const DesignTrackTag =
-  themr('DesignTrackTag', designTrackTag)(GenericButton);
-export const DesignTrackEventTag =
-  themr('DesignTrackEventTag', designTrackEventTag)(GenericButton);
+export const DesignTrackTag = themr('DesignTrackTag', designTrackTag)(GenericButton);
+export const DesignTrackEventTag = themr('DesignTrackEventTag', designTrackEventTag)(GenericButton);
 
-export const DevelopmentTrackTag =
-  themr('DevelopmentTrackTag', developmentTrackTag)(GenericButton);
-export const DevelopmentTrackEventTag =
-  themr('DevelopmentTrackEventTag', developmentTrackEventTag)(GenericButton);
+export const DevelopmentTrackTag = themr('DevelopmentTrackTag', developmentTrackTag)(GenericButton);
+export const DevelopmentTrackEventTag = themr('DevelopmentTrackEventTag', developmentTrackEventTag)(GenericButton);
