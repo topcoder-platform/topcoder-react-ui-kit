@@ -1,5 +1,29 @@
 # Topcoder React UI Kit Changelog
 
+### v0.4.0
+Update to the latest **topcoder-react-utils**, and also better way to pack
+the library for release.
+
+**Breaking Changes:**
+- This version of the library requires a new way to include its global
+  stylesheet into the host code.
+
+  You should replace, in the root ReactJS component of your app, this:
+  ```jsx
+  import 'topcoder-react-ui-kit/dist/style.css';
+  ```
+
+  with this:
+  ```jsx
+  /* eslint-disable global-require */
+  if (process.env.NODE_ENV === 'production') {
+    require('topcoder-react-ui-kit/dist/prod/style.css');
+  } else {
+    require('topcoder-react-ui-kit/dist/dev/style.css');
+  }
+  /* eslint-enable global-require */
+  ```
+
 ### v0.3.0
 Update of dependencies. Should not introduce breaking changes, but, just in
 case, tagged as minor version update.

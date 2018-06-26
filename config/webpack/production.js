@@ -1,5 +1,4 @@
-const configFactory
-  = require('topcoder-react-utils/config/webpack/lib-production');
+const configFactory = require('topcoder-react-utils/config/webpack/lib-production');
 const path = require('path');
 
 const standardConfig = configFactory({
