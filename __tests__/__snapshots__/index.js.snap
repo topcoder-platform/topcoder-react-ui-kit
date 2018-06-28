@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Package exports expected interface 1`] = `
+Object {
+  "Avatar": [Function],
+  "Button": [Function],
+  "DangerButton": [Function],
+  "DataScienceTrackEventTag": [Function],
+  "DataScienceTrackTag": [Function],
+  "DesignTrackEventTag": [Function],
+  "DesignTrackTag": [Function],
+  "DevelopmentTrackEventTag": [Function],
+  "DevelopmentTrackTag": [Function],
+  "GhostButton": [Function],
+  "PrimaryButton": [Function],
+  "SecondaryButton": [Function],
+  "Tag": [Function],
+}
+`;
