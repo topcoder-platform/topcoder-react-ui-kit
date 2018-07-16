@@ -20,16 +20,17 @@ $corner-radius: 2px;
  */
 
 /* Grayscale colors. */
-$tc-black: #262628;
-$tc-gray-90: #37373c;
-$tc-gray-80: #47474f;
-$tc-gray-70: #5d5d66;
-$tc-gray-60: #747480;
-$tc-gray-50: #888894;
-$tc-gray-40: #a3a3ad;
-$tc-gray-30: #c3c3c8;
-$tc-gray-20: #dcdce0;
-$tc-gray-10: #ededf2;
+$tc-black: #151516;
+$tc-gray-90: #2a2a2b;
+$tc-gray-80: #404041;
+$tc-gray-70: #555;
+$tc-gray-60: #6b6b6b;
+$tc-gray-50: #808080;
+$tc-gray-40: #959596;
+$tc-gray-30: #aaaaab;
+$tc-gray-20: #c0c0c0;
+$tc-gray-10: #d5d5d5;
+$tc-gray-05: #e0e0e0;
 $tc-gray-neutral-dark: #ebebeb;
 $tc-gray-neutral-light: #fafafb;
 $tc-white: #fff;
@@ -42,24 +43,24 @@ $tc-dark-blue-30: #cee6ff;
 $tc-dark-blue-10: #f4f9ff;
 
 /* Light Blue - design color code. */
-$tc-light-blue-110: #009ddc;
-$tc-light-blue-100: #15acec;
-$tc-light-blue-70: #63c4f1;
-$tc-light-blue-30: #bce6f9;
+$tc-light-blue-110: #169ed9;
+$tc-light-blue-100: #26ade9;
+$tc-light-blue-70: #67c5ef;
+$tc-light-blue-30: #bde6f8;
 $tc-light-blue-10: #e9f6fc;
 
 /* Warm Orange - data science color code. */
-$tc-orange-110: #f46500;
-$tc-orange-100: #fd7d00;
-$tc-orange-70: #ffa45d;
-$tc-orange-30: #ffe3cf;
+$tc-orange-110: #f26500;
+$tc-orange-100: #fb7d22;
+$tc-orange-70: #fda464;
+$tc-orange-30: #fee3d0;
 $tc-orange-10: #fff0eb;
 
 /* Red - used for warnings/ */
 $tc-red-110: #ea1900;
-$tc-red-100: #f52c14;
-$tc-red-70: #ff5a4c;
-$tc-red-30: #ffd4d0;
+$tc-red-100: #f22f24;
+$tc-red-70: #ff5b52;
+$tc-red-30: #ffd4d1;
 $tc-red-10: #fff4f4;
 
 /* Yellow. */
@@ -70,17 +71,17 @@ $tc-yellow-30: #fff8ca;
 $tc-yellow-10: #fffde5;
 
 /* Greens - development color code. */
-$tc-green-110: #51b200;
-$tc-green-100: #5cc900;
-$tc-green-70: #94db4e;
-$tc-green-30: #cef0af;
-$tc-green-10: #effae4;
+$tc-green-110: #55b000;
+$tc-green-100: #60c700;
+$tc-green-70: #96d957;
+$tc-green-30: #cfefb2;
+$tc-green-10: #effae5;
 
 /* Purples. */
-$tc-purple-110: #753488;
-$tc-purple-100: #914da5;
-$tc-purple-70: #b57ad8;
-$tc-purple-30: #e2c6f3;
+$tc-purple-110: #9050a3;
+$tc-purple-100: #9050a3;
+$tc-purple-70: #b47dd6;
+$tc-purple-30: #e2c7f2;
 $tc-purple-10: #f8f2fb;
 
 /* TC Metal colors - Badges.
@@ -101,10 +102,10 @@ $tc-bronze-110: #854e29;
 $tc-bronze-100: #d98d64;
 
 /* Pastel colors, used for levels. */
-$tc-pastel-green: #12c188;
-$tc-pastel-blue: #6569ff;
-$tc-pastel-yellow: #feb900;
-$tc-pastel-crimson: #e90c5a;
+$tc-pastel-green: #25c089;
+$tc-pastel-blue: #666eff;
+$tc-pastel-yellow: #fcb816;
+$tc-pastel-crimson: #e6175c;
 
 /* Color aliases. */
 
