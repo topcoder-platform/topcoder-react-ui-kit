@@ -4,18 +4,22 @@
 
 @import "default";
 
-.button {
+@mixin button {
   background: transparent;
   border-color: transparent;
   color: $tc-dark-blue-110;
 }
 
-.disabled {
+.button.disabled {
+  @include button;
+
   color: $tc-gray-80;
 }
 
-.link,
-.regular {
+.button.link,
+.button.regular {
+  @include button;
+
   &:visited {
     color: $tc-dark-blue-110;
   }

@@ -7,33 +7,42 @@
 
 @import "~styles/mixins";
 
-/* General button style - medium size. */
-.button {
+/* Generic button of medium size. */
+@mixin button {
   @include tc-label-lg;
 
   align-items: center;
   background: $tc-white;
   border: solid 1px $tc-gray-30;
   border-radius: 4px;
+  box-sizing: border-box;
   color: $tc-gray-80;
   display: inline-flex;
   justify-content: center;
   min-height: 40px;
   margin: 5px;
   padding: 5px 23px;
+  text-align: center;
   vertical-align: middle;
 }
 
+/* NOTE: All CSS rules below use two classes, to have higher specifity, thus
+ * avoiding overriding of these rules by parent rules in some scenarious. */
+
 /* Additional styling for a disabled button. */
-.disabled {
+.button.disabled {
+  @include button;
+
   cursor: not-allowed;
   opacity: 0.3;
 }
 
 /* .link and .regular classes are applied only to active button-like links,
 * and real buttons (rendered as <button> elements). */
-.link,
-.regular {
+.button.link,
+.button.regular {
+  @include button;
+
   /* To prevent different styling of the button-like link once it has been
    * visited. */
   &:visited {
@@ -63,7 +72,7 @@
 
 /* And a few extra classes to support XS, SM and LG sizes. */
 
-.xs {
+.button.xs {
   @include tc-label-sm;
 
   border-radius: 2px;
@@ -72,7 +81,7 @@
   padding: 1px 13px;
 }
 
-.sm {
+.button.sm {
   @include tc-label-md;
 
   color: $tc-gray-80;
@@ -80,7 +89,7 @@
   padding: 4px 18px;
 }
 
-.lg {
+.button.lg {
   @include tc-label-xl;
 
   color: $tc-gray-80;
