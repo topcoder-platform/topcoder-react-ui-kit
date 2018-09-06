@@ -1,5 +1,8 @@
 # Topcoder React UI Kit Changelog
 
+### v0.5.4
+Adds **Modal**, and **ErrorMessage** component.
+
 ### v0.4.0
 Update to the latest **topcoder-react-utils**, and also better way to pack
 the library for release.

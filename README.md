@@ -59,6 +59,8 @@ theming according to the TC UI Kit design specs.
 
 - [**`Avatar`**](docs/avatar.md) &mdash; Themed avatar;
 - [**`Buttons`**](docs/buttons.md) &mdash; Themed buttons;
+- [**`ErrorMessage`**](docs/ErrorMessage.md) &mdash; Standard error message;
+- [**`Modal`**](docs/Modal.md) &mdash; Standard modal component;
 - [**`Tags`**](docs/tags.md) &mdash; Small tags for technologies, event types,
   etc. Technically, they are buttons styled in a different way.
 
