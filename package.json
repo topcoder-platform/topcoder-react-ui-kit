@@ -32,13 +32,13 @@
     "lint:scss": "./node_modules/.bin/stylelint **/*.scss --syntax scss",
     "test": "npm run lint && npm run jest"
   },
-  "version": "0.5.4",
+  "version": "0.5.5",
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-css-super-themr": "^2.2.0",
     "react-dom": "^16.4.1",
-    "topcoder-react-utils": "^0.7.7"
+    "topcoder-react-utils": "^0.7.8"
   },
   "devDependencies": {
     "autoprefixer": "^8.6.4",
