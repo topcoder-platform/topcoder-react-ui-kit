@@ -13,11 +13,16 @@ if (process.env.NODE_ENV === 'production') {
 require('styles/global.scss');
 
 const Avatar = require('components/Avatar').default;
+const ErrorMessage = require('components/ErrorMessage').default;
 const buttons = require('components/buttons');
 const tags = require('components/tags');
 
+const tru = require('topcoder-react-utils');
+
 module.exports = {
   Avatar,
+  ErrorMessage,
+  Modal: tru.Modal,
   ...buttons,
   ...tags,
 };

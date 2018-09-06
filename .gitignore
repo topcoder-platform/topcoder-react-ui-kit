@@ -3,3 +3,4 @@ __coverage__
 .sass-cache
 dist
 node_modules
+topcoder-react-ui-kit-*.tgz
