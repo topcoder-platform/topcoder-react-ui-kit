@@ -186,13 +186,13 @@
  */
 
 @mixin tc-typography {
-  a { color: $tc-dark-blue; }
+  a { color: $tc-dark-blue-110; }
 
   a:active,
   a:focus,
   a:visited,
   a:hover {
-    color: $tc-dark-blue;
+    color: $tc-dark-blue-110;
   }
 
   em {
