@@ -127,11 +127,19 @@
   @include roboto-light;
 
   color: $tc-black;
+  font-size: 42px;
+  line-height: 50px;
+}
+
+@mixin tc-heading-lg {
+  @include roboto-light;
+
+  color: $tc-black;
   font-size: 36px;
   line-height: 45px;
 }
 
-@mixin tc-heading-lg {
+@mixin tc-heading-md {
   @include roboto-regular;
 
   color: $tc-black;
@@ -139,15 +147,15 @@
   line-height: 35px;
 }
 
-@mixin tc-heading-md {
+@mixin tc-heading-sm {
   @include roboto-regular;
 
   color: $tc-black;
   font-size: 20px;
-  line-height: 30px;
+  line-height: 35px;
 }
 
-@mixin tc-heading-sm {
+@mixin tc-heading-xs {
   @include roboto-bold;
 
   color: $tc-black;
@@ -155,7 +163,7 @@
   line-height: 25px;
 }
 
-@mixin tc-heading-xs {
+@mixin tc-heading-xxs {
   @include roboto-bold;
 
   color: $tc-black;
