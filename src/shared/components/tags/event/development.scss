@@ -5,13 +5,13 @@
 @import "../default";
 
 .button {
-  color: $tc-green;
+  color: $tc-green-110;
   background-color: $tc-green-10;
 
   &:active,
   &:focus,
   &:hover {
-    color: $tc-green-110;
+    color: $tc-green;
     background-color: $tc-green-10;
   }
 
