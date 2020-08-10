@@ -30,7 +30,7 @@ jobs:
       - attach_workspace:
           at: .
       - run: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> ~/.npmrc
-      - run: npm publish --tag=qa-accessibility
+      - run: npm publish --tag=test-release
 
 workflows:
   version: 2
