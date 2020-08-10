@@ -5,14 +5,14 @@
 @import "../default";
 
 .button {
-  background-color: $tc-purple;
+  background-color: $tc-purple-120;
   color: $tc-white;
 
   &:active,
   &:focus,
   &:hover {
     color: $tc-white;
-    background-color: $tc-purple;
+    background-color: $tc-purple-120;
   }
 
   &:visited {
