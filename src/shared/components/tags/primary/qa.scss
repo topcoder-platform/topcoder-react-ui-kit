@@ -1,18 +1,18 @@
 /**
- * Primary tag, colored with colors of develop track (green).
+ * Primary tag, colored with colors of qa track (purple).
  */
 
 @import "../default";
 
 .button {
-  background-color: $tc-green-110;
+  background-color: $tc-purple-120;
   color: $tc-white;
 
   &:active,
   &:focus,
   &:hover {
     color: $tc-white;
-    background-color: $tc-green;
+    background-color: $tc-purple;
   }
 
   &:visited {
