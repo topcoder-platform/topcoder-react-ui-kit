@@ -2,50 +2,22 @@
 
 exports[`Snapshots 1`] = `
 <svg
-  className="style__avatar___3QhkH"
+  className="style__avatar___193X1"
   height="141"
   viewBox="0 0 141 141"
   width="141"
   xmlns="http://www.w3.org/2000/svg"
-  xmlnsXlink="http://www.w3.org/1999/xlink"
 >
   <title>
     ico-user-default
   </title>
-  <defs>
-    <rect
-      height="140"
-      id="a"
-      rx="306"
-      width="140"
-      x=".8"
-      y=".5"
-    />
-  </defs>
-  <g
-    fill="none"
+  <path
+    d="M71 35c-17.304 0-31.334 14.071-31.334 31.428v7.857c0 11.307 6.017 21.144 14.955 26.684-11.399 4.27-22.608 13.347-27.728 24.111C38.886 134.728 54.14 140.5 70.8 140.5c16.792 0 32.16-5.862 44.197-15.648-5.17-10.664-16.3-19.643-27.611-23.883 8.93-5.54 14.947-15.377 14.947-26.684v-7.857C102.334 49.07 88.304 35 71 35z"
+    fill="#A3A3AE"
     fillRule="evenodd"
-  >
-    <mask
-      fill="#fff"
-      id="b"
-    >
-      <use
-        xlinkHref="#a"
-      />
-    </mask>
-    <use
-      fill="#F0F0F0"
-      xlinkHref="#a"
-    />
-    <path
-      d="M118 137.143c0 4.345-3.501 7.857-7.833 7.857H31.833C27.51 145 24 141.488 24 137.143c0-15.714 15.142-30.376 30.62-36.174-8.937-5.54-14.953-15.377-14.953-26.683v-7.857C39.667 49.072 53.697 35 71 35c17.304 0 31.333 14.072 31.333 31.429v7.857c0 11.306-6.016 21.143-14.946 26.683 15.471 5.798 30.613 20.46 30.613 36.174z"
-      fill="#A3A3AE"
-      mask="url(#b)"
-      opacity=".2"
-      stroke="#A3A3AE"
-      strokeWidth="3"
-    />
-  </g>
+    opacity=".2"
+    stroke="#A3A3AE"
+    strokeWidth="3"
+  />
 </svg>
 `;
