@@ -34,7 +34,7 @@
   },
   "version": "2.0.1",
   "dependencies": {
-    "prop-types": "^15.6.2",
+    "prop-types": "^15.7.2",
     "react": "^16.4.1",
     "react-css-super-themr": "^2.2.0",
     "react-dom": "^16.4.1",
