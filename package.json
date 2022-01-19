@@ -35,9 +35,9 @@
   "version": "2.0.1",
   "dependencies": {
     "prop-types": "^15.6.2",
-    "react": "^16.4.1",
+    "react": "^16.5.0",
     "react-css-super-themr": "^2.2.0",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.5.0",
     "topcoder-react-utils": "^0.7.8"
   },
   "devDependencies": {
