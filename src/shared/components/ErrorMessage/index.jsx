@@ -63,6 +63,7 @@ class ErrorMessage extends React.Component {
 
 ErrorMessage.defaultProps = {
   details: '',
+  support: '',
 };
 
 ErrorMessage.propTypes = {
