@@ -32,7 +32,7 @@
     "lint:scss": "./node_modules/.bin/stylelint **/*.scss --syntax scss",
     "test": "npm run lint && npm run jest"
   },
-  "version": "2.0.1",
+  "version": "1000.1.2",
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
